@@ -19,6 +19,7 @@ import stat
 import logging
 import operator
 import optparse
+import shutil
 import subprocess
 import tarfile
 import pipes
