@@ -823,6 +823,7 @@ def install_activate(env_dir, opt):
     """
     if is_WIN:
         files = {
+            'activate': ACTIVATE_SH,
             'activate.bat': ACTIVATE_BAT,
             "deactivate.bat": DEACTIVATE_BAT,
             "Activate.ps1": ACTIVATE_PS1
